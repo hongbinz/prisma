@@ -1,6 +1,21 @@
 ### Prisma Trace Guide
 
-[TOC]
+Table of Contents
+=================
+
+* [Prisma Trace Guide](#prisma-trace-guide)
+  * [查看TA生效](#%E6%9F%A5%E7%9C%8Bta%E7%94%9F%E6%95%88)
+  * [查看pusch功率](#%E6%9F%A5%E7%9C%8Bpusch%E5%8A%9F%E7%8E%87)
+  * [怎么计算offset 高频](#%E6%80%8E%E4%B9%88%E8%AE%A1%E7%AE%97offset-%E9%AB%98%E9%A2%91)
+  * [查看PUCCH的打印](#%E6%9F%A5%E7%9C%8Bpucch%E7%9A%84%E6%89%93%E5%8D%B0)
+  * [查看PDCCH打印](#%E6%9F%A5%E7%9C%8Bpdcch%E6%89%93%E5%8D%B0)
+  * [查看Late decoded data](#%E6%9F%A5%E7%9C%8Blate-decoded-data)
+  * [怎么重启ftp](#%E6%80%8E%E4%B9%88%E9%87%8D%E5%90%AFftp)
+  * [怎么抓symshark dump](#%E6%80%8E%E4%B9%88%E6%8A%93symshark-dump)
+  * [怎么重启LSU](#%E6%80%8E%E4%B9%88%E9%87%8D%E5%90%AFlsu)
+  * [查看MSG1功率](#%E6%9F%A5%E7%9C%8Bmsg1%E5%8A%9F%E7%8E%87)
+  * [查看RACH过程](#%E6%9F%A5%E7%9C%8Brach%E8%BF%87%E7%A8%8B)
+
 
 #### 查看TA生效
 
